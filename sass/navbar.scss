@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  height: 6rem;
+  position: fixed;
+  width: 100%;
+  text-decoration: none;
+  background-color: rgba(160, 158, 158, 0.5);
+  opacity: 0.5;
+}
+
+.contact-about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about,
+.contact {
+  display: flex;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+#login-icon,
+#wishlist-icon,
+#cart-icon,
+#info-icon,
+#home-icon,
+#phone_in_talk {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  color: white;
+  border-color: transparent;
+}

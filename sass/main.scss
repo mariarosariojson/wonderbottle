@@ -1,0 +1,77 @@
+@import "./navbar.scss";
+@import "./footer.scss";
+@import "./partials.scss/button";
+@import "./partials.scss/btn-heart";
+@import "./admin.scss";
+@import "./products.scss";
+@import "./about.scss";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap");
+@import "./wishlist.scss";
+@import "./cart.scss";
+@import "./api.scss";
+@import "./contact.scss";
+@import "./checkout.scss";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 0.03rem;
+}
+
+.header-paragraph {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.section-top-bg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/header_pic.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-top-bg {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin-top: 30%;
+  width: 650px;
+}
+
+.button-top-bg {
+  width: 200px;
+}
+
+.section-mid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: black;
+  text-transform: uppercase;
+}
+.section-mid-text {
+  float: right;
+  text-align: right;
+  margin-top: 0.1rem;
+  margin-right: 2%;
+  width: 100%;
+}

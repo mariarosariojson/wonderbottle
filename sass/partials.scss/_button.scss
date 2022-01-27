@@ -1,0 +1,17 @@
+.button,
+.button-top-bg {
+  background-color: #76caca;
+  border: none;
+  color: white;
+  font-weight: 550;
+  font-size: 1.4rem;
+  transition: 0.3s;
+  padding: 8px 20px 8px 20px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button-top-bg:hover {
+  opacity: 0.8;
+  background-color: #e99fa4;
+}
